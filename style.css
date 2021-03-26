@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(74, 0, 211);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+
+.tic-tac-toe, td{
+    border: 5px solid white;
+    border-collapse: collapse;
+}
+
+td{
+    height: 2em;
+    width: 2em;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+
+    user-select: none;
+}
+.result{
+    text-align: center;
+    font-size: 3em;
+    font-style: bold;
+    margin-top: 40px;
+    height: 100px;
+}
+
+.timer{
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(221, 9, 115);
+    background-color: white;
+    font-size: 3em;
+    width: 700px;
+    padding: 30px 0;
+}
